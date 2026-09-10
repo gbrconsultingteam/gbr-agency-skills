@@ -6,6 +6,9 @@ Claude Code skills for the work we do repeatedly. Each one lives in `skills/`.
 |---|---|
 | `beauty-consultation-funnel` | Build a consultation funnel for a beauty client from our Lovable + GitHub template |
 
+New to this? Start with **[docs/getting-started.md](docs/getting-started.md)** —
+setup, what to collect from the client, and the two rules that matter.
+
 ## Installing
 
 Clone this repo, then symlink or copy the skills you want into your personal
