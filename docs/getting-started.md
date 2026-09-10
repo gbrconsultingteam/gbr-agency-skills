@@ -3,20 +3,40 @@
 For anyone on the team building their first client funnel. Roughly 20 minutes of
 setup, once.
 
-## 0. Access you need first
+## 0. Access
 
-Ask Jon for these before you start. Each takes him a minute and blocks
-everything otherwise.
-
-- **Lovable** — an invite to the *GBR Consulting Lovable* workspace
-- **GitHub** — membership of the `gbrconsultingteam` org
-
-Confirm both work:
+The team currently shares one Google account for Lovable and GitHub, so you
+probably already have access. Confirm before starting:
 
 - Open Lovable. You should see the GBR workspace and a project called
   `beauty-funnel-template`.
 - Run `git ls-remote https://github.com/gbrconsultingteam/beauty-funnel-template.git`
   in a terminal. If it prints a commit hash, you're in.
+
+If either fails, ask Jon.
+
+### Set your git identity first
+
+Because the GitHub account is shared, every commit looks like it came from the
+same person unless you say otherwise. Set a name and email per clone so the
+history stays readable:
+
+```bash
+cd <the-client-repo>
+git config user.name "Ale"
+git config user.email "ale@gbrconsultingservices.com"
+```
+
+Do this in each client repo you clone. It costs ten seconds and means that six
+months later you can tell who changed what — which matters most when something
+went wrong and nobody remembers why.
+
+### One at a time in a given project
+
+A shared login means Lovable cannot tell two of you apart. If you and someone
+else edit or publish the same project at the same time, one set of changes can
+quietly overwrite the other. Say in chat which client you're working on before
+you start.
 
 ## 1. Install the skill
 
