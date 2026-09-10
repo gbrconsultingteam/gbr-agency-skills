@@ -78,8 +78,10 @@ scripted — the teammate does it in the Lovable editor:
 > Settings (left sidebar) → Project → Git → GitHub → choose the
 > `gbrconsultingteam` org → repo name → **Create Repository**
 
-Make sure it says *Create Repository*, not *Connect existing repository*. Then
-clone it locally and work there.
+Let Lovable create the repo. Do not make one on GitHub first: if the name is
+already taken Lovable quietly creates a second repo with a random suffix and
+connects to that instead, leaving you with two repos and no obvious sign which
+one is live. Then clone what Lovable made and work there.
 
 ### 3. Images
 

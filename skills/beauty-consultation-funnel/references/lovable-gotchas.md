@@ -76,6 +76,11 @@ entry, or the refresh icon, to return to HEAD.
 In the editor: **Settings → Project → Git → GitHub**, pick the org, name the
 repo, **Create Repository**.
 
-Choose *Create*, not *Connect existing*. A Lovable-created repo is standalone,
-never a fork of the template — which is what you want, since each client's funnel
-should have its own independent history.
+**Do not pre-create the repo on GitHub.** Lovable creates it for you, and it is
+the only option it offers. If a repo with that name already exists, Lovable
+silently creates a *second* one with a random suffix — `my-funnel-1fa2266b` —
+and connects to that, leaving your pre-made repo orphaned and unconnected. You
+then have two repos, one of which is quietly the real one.
+
+A Lovable-created repo is standalone, never a fork of the template, which is
+what you want: each client's funnel should have its own independent history.
