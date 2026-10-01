@@ -5,6 +5,7 @@ Claude Code skills for the work we do repeatedly. Each one lives in `skills/`.
 | Skill | What it does |
 |---|---|
 | `beauty-consultation-funnel` | Build a consultation funnel for a beauty client from our Lovable + GitHub template |
+| `consultation-video-script` | Write the hero video script a client records for a funnel, delivered as a Google Doc |
 
 New to this? Start with **[docs/getting-started.md](docs/getting-started.md)** —
 setup, what to collect from the client, and the two rules that matter.
